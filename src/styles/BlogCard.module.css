@@ -1,0 +1,98 @@
+.card {
+  background-color: var(--bg-button-light);
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border: 1px solid lightgray;
+}
+
+.card h2 {
+  padding: 0.5rem 0rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+}
+
+.coverImage {
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.coverImage:hover {
+  opacity: 0.8;
+}
+
+.details {
+  display: grid;
+  gap: 5px;
+  margin: 1.5rem 0rem;
+}
+
+.text {
+  padding: 1rem;
+  font-size: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.authorImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 0.7rem;
+}
+
+.author h3 {
+  font-size: 1.2rem;
+  opacity: 75%;
+}
+
+.date h3 {
+  font-size: 0.9rem;
+  opacity: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 100%;
+    margin: auto;
+  }
+
+  .text {
+    padding: 1rem;
+    font-size: 0.7rem;
+  }
+
+  .card img {
+    height: fit-content;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+}
