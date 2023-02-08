@@ -76,6 +76,17 @@
   .card {
     width: 100%;
     margin: auto;
+    border: 2px solid green;
+  }
+
+  .imageContainer {
+    position: relative;
+  }
+
+  .coverImage {
+    object-fit: scale-down;
+    cursor: pointer;
+    transition: all 0.5s ease;
   }
 }
 
@@ -83,6 +94,16 @@
   .card {
     width: 100%;
     margin: auto;
+  }
+
+  .imageContainer {
+    position: relative;
+  }
+
+  .coverImage {
+    object-fit: scale-down;
+    cursor: pointer;
+    transition: all 0.5s ease;
   }
 
   .text {
