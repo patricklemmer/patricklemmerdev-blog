@@ -6,7 +6,6 @@
   padding-left: 35px;
   padding-right: 35px;
   margin-bottom: 50px;
-  margin: auto;
   background-color: #fbfbfb;
   border-radius: 0.5rem;
   border: 1px solid #e5e7eb;
@@ -30,7 +29,6 @@
   .main {
     width: 380px;
     gap: 50px;
-    margin: auto;
   }
 }
 
@@ -38,6 +36,5 @@
   .main {
     width: 380px;
     gap: 50px;
-    margin: auto;
   }
 }
