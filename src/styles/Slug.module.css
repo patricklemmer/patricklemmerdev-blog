@@ -1,5 +1,12 @@
 .blog {
-  margin-bottom: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 50px;
+  background-color: #fbfbfb;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
 }
 
 .cover {

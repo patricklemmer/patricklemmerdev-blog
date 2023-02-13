@@ -1,13 +1,43 @@
 .main {
   display: grid;
   gap: 100px;
-  padding-bottom: 150px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 50px;
+  margin: auto;
+  background-color: #fbfbfb;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  .main {
+    width: 524px;
+    gap: 75px;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .main {
+    width: 380px;
     gap: 50px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main {
+    width: 380px;
+    gap: 50px;
+    margin: auto;
   }
 }
